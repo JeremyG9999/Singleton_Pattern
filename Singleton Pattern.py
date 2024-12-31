@@ -3,7 +3,6 @@ import os
 import random
 import time
 
-
 class Singleton:
     instance = None
     def __new__(cls):
